@@ -1,0 +1,14 @@
+Unresolved reference: kotlinx
+
+解决：
+在project层下的dependencies中加入kotlin扩展插件 ：
+classpath "org.jetbrains.kotlin:kotlin-android-extensions:1.5.30"
+
+（版本信息使用command+；，在dependencies中进行search）
+
+在app（module- level）下的dependencies中加入RecyclerView控件
+
+implementation fileTree(dir: 'libs',include:['*.jar'])
+implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk8:16.0.2"
+implementation 'androidx.recyclerview:recycler1.0.0'//添加recyclerview控件
+apply plugin: 'kotlin-android-extensions'
