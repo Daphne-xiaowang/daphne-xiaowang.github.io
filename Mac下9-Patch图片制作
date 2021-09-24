@@ -1,0 +1,18 @@
+//使用android下的drawable工具
+
+//将.png图片粘贴到drawable目录；选中图片右键点击create 9-Patch图片
+
+//详情可见教程https://www.jianshu.com/p/fafdc415935d
+
+//制作完成后需要将原图片删除，只保留.9图，因为不允许同一文件夹下有两张相同名称的图片，即使后缀名不同也不行）
+
+//将准备好的图片设置为LinearLayout的背景图片，，修改activity_main.xm中的代码
+
+//!	切忌乱加空格
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" 
+    android:background="@drawable/msg_left_item">
+
+</LinearLayout>
