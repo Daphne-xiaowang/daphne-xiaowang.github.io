@@ -1,4 +1,4 @@
-#**Mac下9-Patch图片制作**
+**Mac下9-Patch图片制作**
 
 使用android下的drawable工具
 
